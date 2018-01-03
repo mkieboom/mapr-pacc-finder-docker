@@ -28,10 +28,9 @@ docker run -it \
 mkieboom/mapr-pacc-finder-docker
 ```
 
-#### Run the Minio PACC container as a deamon
+#### Run the Finder PACC container as a deamon
 ```
 docker run -d \
---name minio \
 --cap-add SYS_ADMIN \
 --cap-add SYS_RESOURCE \
 --device /dev/fuse \
